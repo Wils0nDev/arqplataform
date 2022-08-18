@@ -4,7 +4,7 @@ import { AppTheme } from './theme/AppTheme';
 function ArqPlataformApp() {
 
   return (
-    <AppTheme>
+    <AppTheme> 
        <AppRouter />
     </AppTheme>
   )

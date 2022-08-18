@@ -4,14 +4,14 @@ export const LoginWithEmailPassword = async(email,password) => {
 
     try {
 
-       const resp = await login(email,password)
+       const {data} = await login(email,password)
        
-       console.log(resp)
+       console.log(data)
 
-    //    return { 
-    //     ok: true,
-    //     uid, photoURL,email, displayName
-    //    }
+       return { 
+        ok: true,
+        data
+       }
       
         
     } catch (error) {

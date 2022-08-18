@@ -2,7 +2,9 @@ import { Toolbar } from "@mui/material";
 import { Box } from "@mui/system";
 import { SideBar,NavBar } from "../components";
 
-const drawerWidth = 240;
+
+const drawerWidth = 240;   
+
 export const ArqPlataformLayout = ({children}) => {
   return (
     <Box sx={{ display: "flex" }}  >
